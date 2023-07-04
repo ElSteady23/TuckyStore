@@ -1,0 +1,124 @@
+/* SUB MENU DEL MENU*/
+.menu {
+    list-style: none;}
+  .menu li {
+    display: inline-block;
+    position: relative;}
+  .menu a {
+    display: block;
+    padding: 5px;
+    text-decoration: none;} 
+  .submenu {
+    display: none;
+    position: absolute;
+    top: 15%;
+    left: 0;
+    background-color: #f0f4f5;
+    padding: 5px;  
+    text-decoration: none;}
+  .menu li:hover .submenu {
+    display: block;}
+  
+   
+/*logo*/
+img {
+    width: 200px;
+    height: auto;}
+
+ /* fondo de la pagina*/
+     body {
+            background-image: url("https://i.pinimg.com/564x/f1/b2/43/f1b243316eaa7ba0ea4090420a523804.jpg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;}
+        .search-container {
+            text-align: center;} 
+        .search-bar {
+            width: 500px;
+            margin-right: 10px;} 
+        .search-button {
+            padding: 10px 20px;}       
+
+
+
+/* Estilos de la barra de menú */
+.menu {
+    background-color: antiquewhite;
+    color: #000000;
+    padding: 1px;
+    justify-content: center;}
+  .menu ul {
+    list-style-type: none;
+    margin: 5px;
+    padding: 5px;} 
+  .menu ul li {
+    display: inline-block;
+    margin-right: 140px;}
+  .menu ul li a {
+    color: #010000;
+    text-decoration: none; }
+  .menu ul li a:hover {
+    text-decoration: none; }
+ 
+
+
+/* CARRUSEL*/
+  .carousel-container {
+    width: 100%;
+    overflow: hidden;} 
+  .carousel {
+    display: flex;
+    width: 100%;
+    animation: carouselAnimation 500s infinite;} 
+  .carousel img {
+    width: 15%;
+    height: auto;
+    overflow: auto;}
+  .small-image {
+    width: 100px;
+    height: auto;}
+  .carousel img {
+    width: 100%;
+    height: auto;
+    opacity: 0.8;
+    transition: opacity 0.5s ease;}
+  .carousel img:hover {
+    opacity: 1; }
+  
+  @keyframes carouselAnimation {
+    0% { transform: translateX(0%); }
+    25% { transform: translateX(-100%); }
+    50% { transform: translateX(-200%); }
+    75% { transform: translateX(-300%); }
+    100% { transform: translateX(0%); }
+  }
+
+
+
+
+
+      
+/* Cambiar tipo y tamaño de letra */
+  body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    font-weight: bold;} 
+  h1 {
+    font-family: "times new roman", serif;
+    font-size: 24px;}
+  p { font-family: 'Times New Roman', Times, serif, sans-serif;
+      font-size: 18px;}
+
+
+
+/* Estilos de la barra de búsqueda */
+.search-bar {
+    display: center;
+    justify-content: center;
+    align-items: center;}
+  .search-bar input {
+    margin-right: -200%;}
+  .search-bar button {
+    padding: 2%;}
+
+
